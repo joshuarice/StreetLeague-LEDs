@@ -13,4 +13,5 @@ void setup() {
 
 void loop() {
     leds[0][0] = CRGB::Blue;
+    FastLED.show();
 }
