@@ -21,6 +21,7 @@ void setup() {
 }
 
 void loop() {
+  // alternating red/blue
   for (i = 0; i < 4; i++) {
     leds[0][0] = CRGB::Blue;
     leds[3][0] = CRGB::Red;
@@ -37,6 +38,7 @@ void loop() {
     delay(300);
   }
   
+  // spinning blue bar
   for (i = 0; i < 4; i++) {
     leds[0][0] = CRGB::Blue;
     leds[3][0] = CRGB::Red;
